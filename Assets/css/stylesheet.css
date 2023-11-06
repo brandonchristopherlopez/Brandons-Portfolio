@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#section-me {
+    border: solid 2px black;
+    min-height: 100px;
+    margin: 1rem 2rem;
+    background-color: bisque;
+}
+
+
+
+.my-header {
+    background-color: pink;
+    border: solid 2px black;
+}
+
+#section {
+    border: solid 2px black;
+    min-height: 100px;
+    margin: 1rem 2rem;
+    background-color: bisque;
+}
+
+#section-about {
+    background-color: aqua;
+}
+
+footer {
+    background-color: red;
+    border: solid 2px black;
+}
+
+#my-footer {
+    background-color: green;
+}
