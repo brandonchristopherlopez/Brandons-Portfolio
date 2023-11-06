@@ -1,44 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brandon Lopez' Portfolio</title>
-    <link rel="stylesheet" href="./Assets/css/stylesheet.css"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Brandon's Home Page</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <header class="my-header">
-<nav>
-    <ul>
-        <li><a href="#section-me">About Me</a></li> 
-        <li><a href="#section-work">Work</a></li>
-<li>contact</li>    
-<li>placeholder</li>    
-</ul>
-</nav>    
-</header>
-    <main>
-        <section id="section-me">
-        Hello, My name is Brandon Lopez.
-        <img src="./Assets/media/images/Brandons Headshot.jpeg" class="Brandons-Headshot">
-    </section>
-        <section id="section-about">
-            THis is your about section
-        </section>
-        <section id="section-work">
-            THis is your work section
-        </section>
-        <section id="section-contact"> 
-            This is your contact section
-        </section>
-        <section id="section-placeholder"> 
-            This is a placeholder section 
-        </section>
+  <!-- main logo / nav -->
+  <header>
+    <h1>Brandon's Portfolio</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+      <!-- Link this to your resume! -->
+      <a href="/Users/brandonlopez/Desktop/Brandon's Resume .pdf">Resume</a>
+    </nav>
+  </header>
 
-    </main>
-    <footer id="my-footer">
-        This is your footer
-    </footer>
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div>
+      <h2>Photo taken by Brandon Lopez!</h2>
+    </div>
+  </section>
+
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p>
+          Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter
+          plaid
+          direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard
+          Carles you
+          probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut
+          paleo
+          scenester
+        </p>
+        <p>
+          Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal
+          dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx
+          Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap
+          squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't
+          heard of them American Apparel next level pug ugh.
+        </p>
+      </div>
+    </section>
+
+    <!-- portfolio container -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="flex-container">
+
+        <a href="#" class="flex-item surf-report">
+          <div>
+            <h3>Surf Report</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+        
+        <a href="#" class="flex-item led-wall">
+          <div>
+            <h3>LED Wall</h3>
+            <span>Node/IoT</span>
+          </div>
+        </a>
+        <a href="#" class="flex-item react-calc">
+          <div>
+            <h3>Calculator</h3>
+            <span>React/JavaScript/CSS</span>
+          </div>
+        </a>
+
+        <a href="#" class="flex-item pastel-puzzles">
+          <div>
+            <h3>Pastel Puzzels</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+
+    
+        <a href="#" class="flex-item run-buddy">
+          <div>
+            <h3>Run Buddy</h3>
+            <span>HTML/CSS</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="tel:+3107401533">(310)740-1533</a>
+          <a href="mailto:BrandonChristopherLopez@gmail.com">BrandonChristopherLopez@gmail.com</a>
+          <a href="https://github.com/brandonchristopherlopez/Hair-of-the-Dog-2">GitHub</a>
+          <a href="#">Twitter</a>
+          <a href="#">Spotify</a>
+        </address>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
